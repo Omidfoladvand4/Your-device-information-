@@ -44,3 +44,61 @@ div{
    flex-direction: column;
    flex-wrap: wrap;
 }
+
+
+
+@media screen and (max-width : 400px) {
+
+    .title{
+        font-size: 20px;
+    }
+    .item {
+        width: 100%;
+        margin:  0 auto;
+    }
+    h1{
+        font-size: 16px;
+    }
+    div{
+        font: 14px;
+    }
+}
+
+@media screen and (max-width : 800px) {
+
+    .title{
+        font-size: 25px;
+    }
+    .item {
+        width: 100%;
+        margin:  0 auto;
+    }
+    h1{
+        font-size: 20px;
+    }
+    div{
+        font: 18px;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+    body {
+        text-align: center;
+    }
+    .section{
+        flex-direction: column;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .item {
+        width: 100%;
+        margin:  0 auto;
+    }
+    h1{
+        font-size: 25px;
+    }
+    div{
+        font: 22px;
+    }
+}
