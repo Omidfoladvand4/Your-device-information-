@@ -5,7 +5,6 @@ const connectionDataElm = $.querySelector('.connection');
 const appVersionElm = $.querySelector('.app-version');
 const tecNetworkElm = $.querySelector('.tec-network');
 const deviceMemoryElm = $.querySelector('.device-memory');
-const hardwareConcurrencyElm = $.querySelector('.hardware-concurrency');
 const platformElm = $.querySelector('.platform');
 const languesElm = $.querySelector('.languages');
 const getChargeElm = $.querySelector('.get-charge');
@@ -23,7 +22,6 @@ win.addEventListener('load', async () => {
     appVersionElm.innerHTML = win.navigator.appVersion;
     tecNetworkElm.innerHTML = win.navigator.connection.effectiveType;
     deviceMemoryElm.innerHTML = win.navigator.deviceMemory + 'GB';
-    hardwareConcurrencyElm.innerHTML = win.navigator.hardwareConcurrency;
     platformElm.innerHTML = win.navigator.platform + ' -  ' +  win.navigator.userAgentData.platform;
     languesElm.innerHTML = win.navigator.language;
     
